@@ -1,5 +1,5 @@
 # 0x00. ES6 Basics
-* Learning Objectives
+* Learning Objectives: 
 At the end of this project, we are expected to be able to explain to anyone:
 
 - What ES6 is
