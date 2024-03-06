@@ -70,9 +70,11 @@ export function mkTask() {
 
   // Array methods
   numbers.push(9);
-  numbers.forEach(num => console.log(num));
-  
+  //numbers.forEach(num => console.log(num));
+  let sqrnumbers = numbers.map(num => num * num);
+  return sqrnumbers;
   // Object: TODO
+
 
   // Process numbers with callback function
   // console.log("Doubling each number:");
