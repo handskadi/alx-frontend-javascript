@@ -72,9 +72,16 @@ export function mkTask() {
   numbers.push(9);
   //numbers.forEach(num => console.log(num));
   let sqrnumbers = numbers.map(num => num * num);
-  return sqrnumbers;
+  //return sqrnumbers;
+  
   // Object: TODO
+  let person = {
+    name: 'Mohamed',
+    age: 36,
+    profession: 'Software Engineer'
+  };
 
+  return person.name + " is a " + person.profession;
 
   // Process numbers with callback function
   // console.log("Doubling each number:");
