@@ -81,7 +81,11 @@ export function mkTask() {
     profession: 'Software Engineer'
   };
 
-  return person.name + " is a " + person.profession;
+  // adding object proprties:
+  person.location = 'Marrakech';
+  delete person.age;
+
+  return person.name + " is a " + person.location;
 
   // Process numbers with callback function
   // console.log("Doubling each number:");
