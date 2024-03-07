@@ -1,3 +1,4 @@
 import { mkTask } from './mk-workshop.js';
-
-console.log(`${mkTask()}`);
+import { mkTask2 } from './mk-workshop-es6.js';
+// console.log(`${mkTask()}`);
+console.log(`${mkTask2()}`);
