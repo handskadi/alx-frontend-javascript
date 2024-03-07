@@ -1,3 +1,7 @@
+ // Importing Module:
+ import { greet } from './model.js';
+
+ // Exportin a function:
 export function mkTask() {
   // Variables:
   var x = 5;
@@ -168,6 +172,11 @@ export function mkTask() {
   }).catch(function(error) {
       console.error('Error:', error);
   });
+
+
+
+ 
+  console.log(greet('MKweb'));
 
   
   
