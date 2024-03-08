@@ -53,3 +53,19 @@ function sum(...numbers) {
 }
 
 console.log(sum(1, 2, 3));
+
+
+// short hand object:
+
+function getBudject(income, gdp,capita){
+
+  const budget = {
+    income,
+    gdp, 
+    capita
+  };
+
+  return budget;
+}
+
+console.log(getBudject(400, 700, 900));
