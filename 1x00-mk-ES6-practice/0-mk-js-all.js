@@ -1,7 +1,13 @@
-import { vars , arrowFunc, restSpread} from './mk-js-all.js';
+import { vars , arrowFunc, spread, rest, destructuring, classes} from './mk-js-all.js';
 console.log(`\n---- Variables ----\n`)
 console.log(`${vars()}`)
 console.log(`\n---- Arrow Functions ----\n`)
 console.log(`${arrowFunc()}`)
-console.log(`\n---- Objects, Arrays using Rest & Spread----\n`)
-console.log(`${restSpread()}`)
+console.log(`\n---- Objects, Arrays using Spread ----\n`)
+console.log(`${spread()}`)
+console.log(`\n---- Objects, Arrays using Rest ----\n`)
+console.log(`${rest()}`)
+console.log(`\n---- Destructuring ----\n`)
+console.log(`${destructuring()}`)
+console.log(`\n---- Classes ----\n`)
+console.log(`${classes()}`)
