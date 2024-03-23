@@ -123,5 +123,42 @@ export function destructuring (){
 }
 
 export function classes (){
+  class Person {
+    constructor(name){
+      this._name =name
+    }
+
+    set name(value){
+      this._name = value
+    }
+
+    get name(){
+      return this._name
+    }
+
+    static definition(){
+      return 'I am a class which handels person object'
+    }
+
+    hello() {
+      return 'Hello, I am ' + this.name + "."
+    }
+  }
+const person12 = new Person('Mohamed')
+console.log(person12.hello())
+
+class programmer extends Person {
+  constructor(name,age){
+    super(name);
+    this.age = age
+  }
+  hello(){
+    return super.hello() + ' I am a programmer and I am ' + this.age
+  }
+}
+
+const person13 = new programmer('Mohamed', 35)
+console.log(person13.hello())
+console.log(Person.definition())
 
 }
